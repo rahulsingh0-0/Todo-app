@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  background: url(./images/bg-desktop-light.jpg);
+  width: 100vw;
+  height: 38vh;
+}
+.inp-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 7%;
+}
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+#theme-chnge-btn {
+  position: relative;
+  left: 280px;
+}
+h1 {
+  color: white;
+  letter-spacing: 9px;
+  position: relative;
+  right: 275px;
+}
+#input-bar {
+  height: 8vh;
+  width: 50vw;
+  font-size: 19px;
+  border: 0px;
+  outline: 0px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.inputs {
+  height: 55vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.inp-section {
+  height: 50vh;
+  width: 50vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  top: 30%;
+  background-color: white;
+}
+.inp-section {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+p {
+  width: 50vw;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #636e72;
+  border-bottom: 2px solid #dfe6e9;
+  font-weight: 500;
+}
+#check {
+  height: 20px;
+  width: 20px;
+  margin: 0px 25px 0px 25px;
+  padding: 10px;
+}
+
+.static {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  position: absolute;
+  top: 83%;
+  padding: 15px;
+}
+.random {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-weight: 500;
+  color: #636e72;
+  font-size: 16px;
+}
+h3:hover {
+  color: #0984e3;
+}
+h4 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.dark-theme {
+  background-color: rgb(25, 23, 31);
+  transition: 1000ms all ease;
+}
+.light-theme {
+  transition: 1000ms all ease;
+}
